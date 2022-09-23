@@ -1,0 +1,60 @@
+/*
+BODY: Width y height ¿?
+       mismo tipo de fuente 
+
+HEADER: fondo negro,   
+list-header: clase para listado, letra blanca, =tamaño y fuente. creamos la lista en <a> y que no sirve ponerlo en <ul> (especificidad)
+
+
+sección1: crear una clase, fondo azul, color letra blanca
+sección2: crar una clase, fondo blanco, color letra negra.
+
+list-section2: LISTADO DE LA SECCIÓN2: posicionamiento
+
+FOOTER:
+    list-footer: Clase para el listado del footer especifico en la etiqueta <a>
+
+logo: pequeño y a la izq
+logo menu: pequeño a la drch
+
+
+*/
+
+html {
+    font-size:62.5%;
+} /* Ver si aplica*/
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+Header {
+    Background-color:black;
+}
+.list-header {
+    color: white;
+    font-size: 2rem;
+    list-style: none;
+    text-decoration: none;
+    /*aliniar y poner en fila clase 1.2*/
+
+}
+
+.section1 {
+    border:solid 3px red;
+    background:blue;
+}
+
+.section2 {
+    border:solid 3px red;
+    background:cornflowerblue; 
+}
+
+
+.list-section2 {
+      /*aliniar y poner en fila clase 1.2*/  
+}
+footer {
+    background:black;
+}
+.list-footer { /*pte definir*/}

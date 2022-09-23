@@ -10,13 +10,69 @@
 </head>
 <body>
     <header>
-        <img src="./images/logo.png" alt="logo de Spotify" /> <!--problema: acceder a la carpeta con la imagen-->
+        <img src="./images/logo.png" alt="Logo de Spotify" />
+        
+        <nav> <!--DUDA: el contenido es igual que el desplegable del botón, ver si corresonde meter el botón dentro del NAV-->
+            <button> <!--DESPLEGABLE es realmente un botón-->
+             <img src="./images/menu-icon.png" alt="Icono de menú" />
+            </button>
+            <ul >
+                <li><a class="list-header" href="">Premium</a></li>
+                <li><a class="list-header" href="">Ayuda</a></li>
+                <li><a class="list-header" href="">Descargar</a></li>
+                <li><a class="list-header" href="">Registrarse</a></li>
+                <li><a class="list-header" href="">Iniciar sesión</a></li>
+            </ul>
+
+        </nav>
+    
     </header>
     <main>
+        <section class="section1">
+            <h1>Prueba Premium gratis 3 meses</h1>
+            <p>
+                Escucha millones de canciones sin anuncios, a la carta y sin conexión.
+            </p>
+            <button><a href="" >VER PLANES</a></button>
+            <P><!--VERIFICAR si no sería más adecuado otro tipo de etiqueta para un texto pequeño-->
+                Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado Premium.
+            </P>
+        </section>
+        <section class="section2">
+            <H2>¿Por qué pasarte a Premium?</H2>
+            <!--consideramos que el contenido es una lista, insertamos las imagenes en la lista para ver si luego se pueden reubicar con css o si es necesario sacarlas fuera.-->
+            <ul class="list-section2">
+                <li>
+                    <img src="./images/benefit-1.png" alt="icono decorativo"/>
+                    <h3>Desarga música.</h3>
+                    Llévala siempre contigo.</li>
+                <li>
+                    <img src="./images/benefit-2.png" alt="icono decorativo"/>
+                    <h3>Sin anuncios.</h3>
+                    Disfruta de música sin interrupciones.</li>
+                <li>
+                    <img src="./images/benefit-3.png" alt="icono decorativo"/>
+                    <h3>Escucha lo que quieras.</h3>
+                    Incluso en el móvil.</li>
+                <li>
+                    <img src="./images/benefit-4.png" alt="icono decorativo"/>
+                    <h3>Salta todas las canciones que quieras.</h3>
+                    Simplemente dale a siguiente.</li>
+
+            </ul>
+
+        </section>
 
     </main>
     <footer>
-
+        España <!-- PREGUNTAR si es necesario una etiqueta ejemplo p-->
+        <img src="./images/bandera.png" alt="Bandera de España" /> <!--buscar una imagen con transparencias-->
+        <ul>
+            <li><a href="">Legal</a></li>
+            <li><a href="">Cookies</a></li>
+            <li><a href="">Información sobre los anuncios</a></li> <!--TABLET: En la versió móvil este punto no esta -->
+        </ul>
+        <span>@ 2019 Spotify AB </span> <!--preguntar si es la etiqueta más adecuada-->
     </footer>
 </body>
 </html>
