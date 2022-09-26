@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
     <!--verificar que el link de texto este ok-->
 
     <title>Ejercicio Spotify</title>
@@ -45,12 +45,13 @@
     </header>
     <main>
       <section class="section1">
-        <h1>Prueba Premium gratis 3 meses</h1>
-        <p>
+        <h1 class="title">Prueba Premium gratis 3 meses</h1>
+        <!--como poner en negrita-->
+        <p class="parrafo-1">
           Escucha millones de canciones sin anuncios, a la carta y sin conexión.
         </p>
-        <button><a href="">VER PLANES</a></button>
-        <p>
+        <button class="button"><a class="link" href="">VER PLANES</a></button>
+        <p class="parrafo-2">
           <!--VERIFICAR si no sería más adecuado otro tipo de etiqueta para un texto pequeño-->
           Rigen términos y condiciones. Los tres meses gratis no están
           disponibles para usuarios que ya hayan probado Premium.
@@ -61,22 +62,38 @@
         <!--consideramos que el contenido es una lista, insertamos las imagenes en la lista para ver si luego se pueden reubicar con css o si es necesario sacarlas fuera.-->
         <ul class="list-section2">
           <li>
-            <img src="./images/benefit-1.png" alt="icono decorativo" />
+            <img
+              class="icons"
+              src="./images/benefit-1.png"
+              alt="icono decorativo"
+            />
             <h3>Desarga música.</h3>
             Llévala siempre contigo.
           </li>
           <li>
-            <img src="./images/benefit-2.png" alt="icono decorativo" />
+            <img
+              class="icons"
+              src="./images/benefit-2.png"
+              alt="icono decorativo"
+            />
             <h3>Sin anuncios.</h3>
             Disfruta de música sin interrupciones.
           </li>
           <li>
-            <img src="./images/benefit-3.png" alt="icono decorativo" />
+            <img
+              class="icons"
+              src="./images/benefit-3.png"
+              alt="icono decorativo"
+            />
             <h3>Escucha lo que quieras.</h3>
             Incluso en el móvil.
           </li>
           <li>
-            <img src="./images/benefit-4.png" alt="icono decorativo" />
+            <img
+              class="icons"
+              src="./images/benefit-4.png"
+              alt="icono decorativo"
+            />
             <h3>Salta todas las canciones que quieras.</h3>
             Simplemente dale a siguiente.
           </li>
@@ -84,14 +101,17 @@
       </section>
     </main>
     <footer class="footer">
-      España
+      <span>España</span>
+
       <!-- PREGUNTAR si es necesario una etiqueta ejemplo p-->
-      <img src="./images/bandera.png" alt="Bandera de España" />
+
+      <img class="bandera" src="./images/bandera.png" alt="Bandera de España" />
+
       <!--buscar una imagen con transparencias-->
       <ul>
-        <li><a class="list-footer" href="">Legal</a></li>
-        <li><a class="list-footer" href="">Cookies</a></li>
-        <li>
+        <li class="list"><a class="list-footer" href="">Legal</a></li>
+        <li class="list"><a class="list-footer" href="">Cookies</a></li>
+        <li class="list">
           <a class="list-footer" href="">Información sobre los anuncios</a>
         </li>
         <!--TABLET: En la versió móvil este punto no esta -->

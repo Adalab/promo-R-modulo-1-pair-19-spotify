@@ -25,7 +25,7 @@ html {
 } /* Ver si aplica*/
 
 .body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto, sans-Serif;
 }
 
 .header {
@@ -57,6 +57,11 @@ html {
 
 }
 
+.title {
+    font-size: 7rem;
+   
+}
+
 .header .list {
     display: inline;
 }
@@ -68,9 +73,35 @@ html {
     color: white
 }
 
+.parrafo-1 {
+    font-size: 2rem;
+}
+
+.button {
+    height: 35px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(7, 207, 51);
+    border-radius: 10px;
+
+}
+
+.button .link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.parrafo-2 {
+    font-size: 1rem;
+}
 .section2 {
     border:solid 3px red;
     background:cornflowerblue; 
+}
+
+.icons {
+    height: 70px;
 }
 
 
@@ -81,6 +112,21 @@ html {
       /*aliniar y poner en fila clase 1.2*/  
 }
 .footer {
+    height: 90px;
     background:black;
+    color: white;
 }
-.list-footer { /*pte definir*/}
+
+.bandera {
+    height: 10px;
+}
+.list-footer { 
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.footer .list {
+    display: inline;
+}
