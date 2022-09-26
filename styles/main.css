@@ -24,25 +24,48 @@ html {
     font-size:62.5%;
 } /* Ver si aplica*/
 
-body {
+.body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-Header {
+.header {
+    height: 80px;
+    padding: 10px;
     Background-color:black;
 }
-.list-header {
+
+.logo {
+    height: 35px;
+    display: inline;
+}
+
+.image-menu {
+    height: 35px;
+    display: inline;
+
+     /*pendiente: alinear a la derecha*/
+}
+
+.links-nav {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     list-style: none;
     text-decoration: none;
-    /*aliniar y poner en fila clase 1.2*/
+    padding: 10px;
+    /*pendiente: alinear a la derecha*/
+   
 
 }
 
+.header .list {
+    display: inline;
+}
 .section1 {
+    height: 400px;
     border:solid 3px red;
-    background:blue;
+    padding: 10px;
+    background:cornflowerblue;
+    color: white
 }
 
 .section2 {
@@ -52,9 +75,12 @@ Header {
 
 
 .list-section2 {
+    height: 600px;
+    background-color: white;
+    padding: 10px;
       /*aliniar y poner en fila clase 1.2*/  
 }
-footer {
+.footer {
     background:black;
 }
 .list-footer { /*pte definir*/}
