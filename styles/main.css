@@ -29,56 +29,64 @@ html {
 }
 
 .header {
-    height: 80px;
+    height: 5vh;
     padding: 10px;
     Background-color:black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
-    height: 35px;
-    display: inline;
+    height: 30px;
+    margin: 5px;
 }
 
 .image-menu {
-    height: 35px;
-    display: inline;
-
-     /*pendiente: alinear a la derecha*/
+    height: 30px;
 }
 
+     
+/*
 .links-nav {
     color: white;
     font-size: 1rem;
     list-style: none;
     text-decoration: none;
     padding: 10px;
-    /*pendiente: alinear a la derecha*/
+    display:none;
+    }
+    */ 
+    /*elementos ocultos para VERSION TABLET*/
    
-
-}
+.section1 {
+        box-sizing: border-box;
+        height: 40vh;
+        border:solid 3px red;
+        padding: 10px;
+        background:cornflowerblue;
+        color: white;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 20px;
+        align-items: flex-start;
+    }
 
 .title {
-    font-size: 7rem;
-   
+    font-size: 3rem;
 }
 
 .header .list {
     display: inline;
 }
-.section1 {
-    height: 400px;
-    border:solid 3px red;
-    padding: 10px;
-    background:cornflowerblue;
-    color: white
-}
+
 
 .parrafo-1 {
     font-size: 2rem;
 }
 
 .button {
-    height: 35px;
+    height: 30px;
     width: 150px;
     padding: 10px;
     background-color: rgb(7, 207, 51);
@@ -96,12 +104,23 @@ html {
     font-size: 1rem;
 }
 .section2 {
-    border:solid 3px red;
-    background:cornflowerblue; 
+    border:solid 3px yellow;
+    background:white; 
+    height:45vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title2{
+    font-size: 3rem;
+}
+.box1,.box2,.box3,.box4 {
+    display: flex;
 }
 
 .icons {
-    height: 70px;
+    height: 50px;
 }
 
 
@@ -112,7 +131,7 @@ html {
       /*aliniar y poner en fila clase 1.2*/  
 }
 .footer {
-    height: 90px;
+    height: 10vh;
     background:black;
     color: white;
 }
@@ -129,4 +148,5 @@ html {
 
 .footer .list {
     display: inline;
+
 }

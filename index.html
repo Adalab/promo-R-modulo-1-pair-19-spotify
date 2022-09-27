@@ -21,17 +21,16 @@
   <body class="body">
     <header class="header">
       <img class="logo" src="./images/logo.png" alt="Logo de Spotify" />
-
-      <nav>
         <!--DUDA: el contenido es igual que el desplegable del botón, ver si corresponde meter el botón dentro del NAV-->
-        <button>
-          <!--DESPLEGABLE es realmente un botón-->
+      <button>
           <img
             class="image-menu"
             src="./images/menu-icon.png"
             alt="Icono de menú"
           />
         </button>
+      <!--
+      <nav>
         <ul>
           <li class="list"><a class="links-nav" href="">Premium</a></li>
           <li class="list"><a class="links-nav" href="">Ayuda</a></li>
@@ -42,7 +41,9 @@
           </li>
         </ul>
       </nav>
+    -->
     </header>
+
     <main>
       <section class="section1">
         <h1 class="title">Prueba Premium gratis 3 meses</h1>
@@ -57,47 +58,49 @@
           disponibles para usuarios que ya hayan probado Premium.
         </p>
       </section>
+      
       <section class="section2">
-        <h2>¿Por qué pasarte a Premium?</h2>
-        <!--consideramos que el contenido es una lista, insertamos las imagenes en la lista para ver si luego se pueden reubicar con css o si es necesario sacarlas fuera.-->
-        <ul class="list-section2">
-          <li>
-            <img
-              class="icons"
-              src="./images/benefit-1.png"
-              alt="icono decorativo"
-            />
+        <h2 class="title2">¿Por qué pasarte a Premium?</h2>
+        <div class="box1">
+          <img
+            class="icons"
+            src="./images/benefit-1.png"
+            alt="icono decorativo"/>
+          <p class="parf2-1"> <!--hacer lista en lugar de p-->
             <h3>Desarga música.</h3>
             Llévala siempre contigo.
-          </li>
-          <li>
-            <img
+          </p>
+        </div>
+        <div class="box2">
+          <img
               class="icons"
               src="./images/benefit-2.png"
-              alt="icono decorativo"
-            />
+              alt="icono decorativo"/>
+          <p class="parf2-2">
             <h3>Sin anuncios.</h3>
             Disfruta de música sin interrupciones.
-          </li>
-          <li>
+          </p>
+        </div>
+        <div class="box3">
             <img
               class="icons"
               src="./images/benefit-3.png"
-              alt="icono decorativo"
-            />
-            <h3>Escucha lo que quieras.</h3>
-            Incluso en el móvil.
-          </li>
-          <li>
+              alt="icono decorativo"/>
+            <p class="parf2-3">
+              <h3>Escucha lo que quieras.</h3>
+              Incluso en el móvil.
+            </p>
+          </div>
+          <div class="box4">
             <img
               class="icons"
               src="./images/benefit-4.png"
-              alt="icono decorativo"
-            />
-            <h3>Salta todas las canciones que quieras.</h3>
-            Simplemente dale a siguiente.
-          </li>
-        </ul>
+              alt="icono decorativo"/>
+            <p class="parf2-4">
+              <h3>Salta todas las canciones que quieras.</h3>
+              Simplemente dale a siguiente.
+            </p>
+          </div>
       </section>
     </main>
     <footer class="footer">
