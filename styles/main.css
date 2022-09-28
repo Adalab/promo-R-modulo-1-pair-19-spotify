@@ -34,6 +34,8 @@ html {
     Background-color:black;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
@@ -57,10 +59,15 @@ html {
     }
     */ 
     /*elementos ocultos para VERSION TABLET*/
-   
+ /*
+.header .list {
+    display: inline;
+}
+*/
+    
 .section1 {
         box-sizing: border-box;
-        height: 40vh;
+        height: ;
         border:solid 3px red;
         padding: 10px;
         background:cornflowerblue;
@@ -76,12 +83,7 @@ html {
     font-size: 3rem;
 }
 
-.header .list {
-    display: inline;
-}
-
-
-.parrafo-1 {
+.prg1 {
     font-size: 2rem;
 }
 
@@ -93,57 +95,81 @@ html {
     border-radius: 10px;
 
 }
-
 .button .link {
     color: white;
     text-decoration: none;
 }
-
-
-.parrafo-2 {
+.prg2 {
     font-size: 1rem;
 }
+
+/*SECTION 2*/
+
 .section2 {
+
     border:solid 3px yellow;
     background:white; 
-    height:45vh;
+    height:;
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 20px;
+    gap:50px;
 }
-.title2{
+.title2 {
     font-size: 3rem;
+    width: 80%;
+    text-align: center;
 }
-.box1,.box2,.box3,.box4 {
+.box1,.box2,.box3,.box4 {position: relative;
     display: flex;
+    width: 75%;
+    gap: 20px;
+}
+
+.section2 .list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .icons {
-    height: 50px;
+    height: 60px;
+}
+
+.list-element1 {
+    font-size: 2rem;
+}
+
+.list-element2 {
+    font-size: 1.5rem;
 }
 
 
-.list-section2 {
-    height: 600px;
-    background-color: white;
-    padding: 10px;
-      /*aliniar y poner en fila clase 1.2*/  
-}
+
+
+
+/*FOOTER* pendiente dar forma *// 
 .footer {
     height: 10vh;
     background:black;
     color: white;
+    display: flex;
+
 }
 
-.bandera {
+.flag {
     height: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 .list-footer { 
     color: white;
     text-decoration: none;
     font-size: 1rem;
     padding: 10px;
+    border:2px solid red;
 }
 
 .footer .list {
