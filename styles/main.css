@@ -47,7 +47,20 @@ html {
     height: 30px;
 }
 
+
+
+.navlist {
+    text-decoration: none;
+    display: none;
+    gap: 10px;
+
+}
      
+.links-nav {
+    text-decoration:none;
+}
+
+
 /*
 .links-nav {
     color: white;
@@ -90,7 +103,6 @@ html {
 .button {
     height: 30px;
     width: 150px;
-    padding: 10px;
     background-color: rgb(7, 207, 51);
     border-radius: 10px;
 
@@ -101,6 +113,12 @@ html {
 }
 .prg2 {
     font-size: 1rem;
+}
+
+.img {
+    display: none;
+    width:50%;
+    object-fit: contain;
 }
 
 /*SECTION 2*/
@@ -150,20 +168,23 @@ html {
 
 
 
-/*FOOTER* pendiente dar forma *// 
+/*FOOTER* pendiente dar forma */ 
 .footer {
     height: 10vh;
     background:black;
     color: white;
     display: flex;
+    justify-content: space-between;
+    
 
 }
 
 .flag {
     height: 10px;
-    display: flex;
-    justify-content: flex-end;
+    display: inline;
+
 }
+
 .list-footer { 
     color: white;
     text-decoration: none;
@@ -174,5 +195,19 @@ html {
 
 .footer .list {
     display: inline;
+}
 
+@media all and (min-width:480px) {
+    .img {
+        display: flex;
+
+    }
+    .navlist {
+        display: flex;
+    }
+    .section1 {
+
+        display:flex;
+    } 
+    }
 }
