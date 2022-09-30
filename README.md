@@ -1,14 +1,54 @@
-<<<<<<< HEAD
-Rama Noe
+Rama Noe Y Bruna
 
 Rama para trabajar de forma individual cuando no se encuentr la persona de Pair
 para investigar, experimetar y modificar.
 
-Lorem PRUEBA dolor sit amet consectetur adipisicing elit. Commodi dicta dolores facere. Dolore totam possimus saepe perferendis, architecto odio, et obcaecati omnis tenetur sit tempora laudantium maxime dolores cumque sunt!
-=======
-Prueba rama nueva!!!
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad cum vel ullam ipsam culpa eveniet reiciendis repellat. Nobis ipsa cum nam doloribus voluptates. Perspiciatis a ipsa quidem, inventore quae commodi?
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad cum vel ullam ipsam culpa eveniet reiciendis repellat. Nobis ipsa cum nam doloribus voluptates. Perspiciatis a ipsa quidem, inventore quae commodi?
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad cum vel ullam ipsam culpa eveniet reiciendis repellat. Nobis ipsa cum nam doloribus voluptates. Perspiciatis a ipsa quidem, inventore quae commodi?
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad cum vel ullam ipsam culpa eveniet reiciendis repellat. Nobis ipsa cum nam doloribus voluptates. Perspiciatis a ipsa quidem, inventore quae commodi?
->>>>>>> b3e3ec130244b78c009b0eb59f81dfcb751cdec8
+CAMBIAS:
+
+- -- VERSION MOBILE---
+
+-boton menú a la derecha
+-sección azul:
+
+- letras "Escucha millones" muy grande
+- espacios entre texto se han debido de ir
+- boton: ocupa todo y alargado, borde quitar formato
+- texto pequeño mas separado y pequeño
+- Margen de arriba
+
+-sección blanca:
+
+- definir el tipo de letra y negrita
+- Espacio bottom
+
+-footer:
+
+- alineamiento
+- revisar
+
+- -- VERSION TABLE---
+  -Header: NOE
+- quitar boton
+- nav: estilo quitar, alinear, etc
+- logo spotify centar
+- ver el alto
+
+- sección azul: NOE
+- imagen a la derecha y atras de las letras
+- tamñano letras
+- espacio entre letras
+- botton
+
+- sección blanco: BRUNA
+- alinear flex display
+
+-footer:BRUNA
+
+- alineamiento
+- revisar
+
+- -- VERSION TABLE---
+  -Header:
+- sección azul
+- sección blanco
+  -footer:

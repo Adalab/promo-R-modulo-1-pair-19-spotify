@@ -45,8 +45,12 @@ html {
 
 .image-menu {
     height: 30px;
+ 
 }
-
+.button-menu {
+    background-color: black;
+    border-style: none;
+}
 
 
 .navlist {
